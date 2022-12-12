@@ -22,7 +22,7 @@ for (var i = 0; i <= length * measure; i++)
     happyTickets += (sums[length, i] * sums[length, i]);
 }
 
-happyTickets *= 13;
+happyTickets *= measure + 1;
 Console.WriteLine(happyTickets);
 
 //9 203 637 295 151
